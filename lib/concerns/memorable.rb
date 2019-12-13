@@ -1,3 +1,4 @@
+require_relative "../lib/concerns/memorable"
 module Memorable
 
   def self.reset_all
@@ -7,5 +8,5 @@ module Memorable
   def self.count
     self.all.count
   end
-  
+
 end
